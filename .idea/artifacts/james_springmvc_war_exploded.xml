@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="james-springmvc:war exploded">
+    <output-path>$PROJECT_DIR$/target/james-springmvc</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jiajia-springmvc" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/james-springmvc/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="jiajia-springmvc/web/Web" />
+    </root>
+  </artifact>
+</component>
